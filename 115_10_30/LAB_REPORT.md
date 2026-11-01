@@ -199,4 +199,4 @@ CollectionsDemo 預測 min/max/frequency：6 / 20 / 1；實際：min=6、max=20�
 - commit、push，核對 GitHub main 最新 commit 與來源檔：已推送，GitHub main 最新 commit 為d81473c。
 
 GitHub repo/作業目錄：(https://github.com/a114222052-alt/115_1_Java) ； 最終 commit：d81473c。
-本人新副本 JDK/編譯/預設輸出：待填，未做標示待補。
+本人新副本 JDK/編譯/預設輸出：待填。
