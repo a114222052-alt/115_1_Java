@@ -1,6 +1,6 @@
 # 第四週學生實作：火星探測車任務日誌
 
-姓名：待填　學號：待填　實際上課日期：待填　實際 JDK：openjdk version "21.0.13.0.2" 2026-10-22 LTS；javac 21.0.13.0.2
+姓名：杜婉綺　學號：A114222052　實際上課日期：115/10/30　實際 JDK：openjdk version "21.0.13.0.2" 2026-10-22 LTS；javac 21.0.13.0.2
 
 > 檢查提醒（交出前請刪掉這段）：標「待填」的是我沒有事實依據、必須由你自己補的地方；標「草稿」的是我依你的實測先寫的說明，請改成自己的話。預測欄若你當時沒有先預測，請寫「未事先預測」，不要補成像事先猜的。
 
@@ -197,8 +197,8 @@ CollectionsDemo 預測 min/max/frequency：6 / 20 / 1；實際：min=6、max=20�
 ## H｜保存、推送與取回
 
 - 恢復預設腳本（{1,1,2}）並重新編譯執行：已完成，`counts[0..3]=[0, 2, 1, 0]`、`final energy=6, samples=5, actionCount=3 -> SUCCESS`、`battery=30.0`。
-- LAB_REPORT、AI_USAGE、專案 README：待填（README 尚未完成）。
+- LAB_REPORT、AI_USAGE、專案 README：已完成。
 - commit、push，核對 GitHub main 最新 commit 與來源檔：待填。
 
-GitHub repo/作業目錄：待填；最終 commit：待填。
+GitHub repo/作業目錄：(https://github.com/a114222052-alt/115_1_Java)；最終 commit：bd145a6。
 本人新副本 JDK/編譯/預設輸出：待填，未做標示待補。
