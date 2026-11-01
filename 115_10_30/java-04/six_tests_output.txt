@@ -1,0 +1,59 @@
+﻿##### script=[0]
+=== replay ===
+step 1: command=0, result=RETURN, energy=20
+counts[0..3]=[1, 0, 0, 0]
+steps=1, ok=0, rejected=0, ignored=0
+lowest energy=20
+final energy=20, samples=0, actionCount=0 -> RETURNED
+battery=100.0
+##### script=[1, 1, 2]
+=== replay ===
+step 1: command=1, result=OK, energy=14
+step 2: command=1, result=OK, energy=8
+step 3: command=2, result=OK, energy=6
+counts[0..3]=[0, 2, 1, 0]
+steps=3, ok=3, rejected=0, ignored=0
+lowest energy=6
+final energy=6, samples=5, actionCount=3 -> SUCCESS
+battery=30.0
+##### script=[2, 2, 2, 2, 2]
+=== replay ===
+step 1: command=2, result=OK, energy=18
+step 2: command=2, result=OK, energy=16
+step 3: command=2, result=OK, energy=14
+step 4: command=2, result=OK, energy=12
+step 5: command=2, result=OK, energy=10
+counts[0..3]=[0, 0, 5, 0]
+steps=5, ok=5, rejected=0, ignored=0
+lowest energy=10
+final energy=10, samples=5, actionCount=5 -> SUCCESS
+battery=50.0
+##### script=[3, 9, 0]
+=== replay ===
+step 1: command=3, result=ALREADY_FULL, energy=20
+step 2: command=9, result=UNKNOWN_COMMAND, energy=20
+step 3: command=0, result=RETURN, energy=20
+counts[0..3]=[1, 0, 0, 1]
+steps=3, ok=0, rejected=2, ignored=0
+lowest energy=20
+final energy=20, samples=0, actionCount=0 -> RETURNED
+battery=100.0
+##### script=[1, 1, 1, 1]
+=== replay ===
+step 1: command=1, result=OK, energy=14
+step 2: command=1, result=OK, energy=8
+step 3: command=1, result=OK, energy=2
+counts[0..3]=[0, 3, 0, 0]
+steps=3, ok=3, rejected=0, ignored=1
+lowest energy=2
+final energy=2, samples=6, actionCount=3 -> SUCCESS
+battery=10.0
+##### script=[2, 1]
+=== replay ===
+step 1: command=2, result=OK, energy=18
+step 2: command=1, result=OK, energy=12
+counts[0..3]=[0, 1, 1, 0]
+steps=2, ok=2, rejected=0, ignored=0
+lowest energy=12
+final energy=12, samples=3, actionCount=2 -> UNFINISHED
+battery=60.0
