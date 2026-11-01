@@ -198,5 +198,5 @@ CollectionsDemo 預測 min/max/frequency：6 / 20 / 1；實際：min=6、max=20�
 - LAB_REPORT、AI_USAGE、專案 README：已完成。
 - commit、push，核對 GitHub main 最新 commit 與來源檔：待填。
 
-GitHub repo/作業目錄：(https://github.com/a114222052-alt/115_1_Java) ； 最終 commit：daa1bdf。
+GitHub repo/作業目錄：(https://github.com/a114222052-alt/115_1_Java) ； 最終 commit：d81473c。
 本人新副本 JDK/編譯/預設輸出：待填，未做標示待補。
